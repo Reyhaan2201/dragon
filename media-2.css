@@ -1,0 +1,51 @@
+@media screen and (max-width: 568px) {
+    .container{
+        height: 130vh;
+    }
+    .box1{
+        grid-column: span 3;
+    }
+    .box2{
+        grid-row: span 1;
+        grid-column: span 2
+    }
+    .box3{
+        grid-row: span 1;
+    }
+    .box4{
+        /* grid-column: span 5; */
+        display: none;
+    visibility: hidden;
+    }
+    /* .box4 img{
+        
+        animation: move 6s linear infinite;
+    } */
+    /* @keyframes move{
+        0%{
+            left: 0%;
+        }
+        100%{
+            left: 270px;
+        }
+    } */
+    .box5{
+        grid-column: span 4;
+    }
+    .box9{
+        grid-column: span 2;
+    }
+    .box11{
+        grid-row: span 1;
+    }
+    .box13{
+        grid-row: span 1;
+    }
+    .box14{
+        grid-row: span 1;
+    }
+    .box20{
+        grid-column: span 1;
+    }
+    
+}
